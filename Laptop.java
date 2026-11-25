@@ -2,8 +2,7 @@ public class Laptop extends MayTinh {
     private double trongLuong; // kg
     private int dungLuongPin;  // Wh
 
-    public Laptop(String maMay, String hangSX, double giaGoc, int namSX,
-                  double trongLuong, int dungLuongPin) {
+    public Laptop(String maMay, String hangSX, double giaGoc, int namSX, double trongLuong, int dungLuongPin) {
         super(maMay, hangSX, giaGoc, namSX);
         this.trongLuong = trongLuong;
         this.dungLuongPin = dungLuongPin;
@@ -36,7 +35,6 @@ public class Laptop extends MayTinh {
     public void hienThiThongTin() {
         System.out.print("[Laptop] ");
         super.hienThiThongTin();
-        System.out.printf(" | Trọng lượng: %.2f kg | Pin: %d Wh | Giá bán: %,.0f VNĐ%n",
-                trongLuong, dungLuongPin, tinhGiaBan());
+        System.out.printf(" | Trọng lượng: %.2f kg | Pin: %d Wh | Giá bán: %,.0f VNĐ%n", trongLuong, dungLuongPin, tinhGiaBan());
     }
 }

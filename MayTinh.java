@@ -53,7 +53,6 @@ public abstract class MayTinh {
     public abstract double tinhGiaBan();
 
     public void hienThiThongTin() {
-        System.out.printf("Mã: %s | Hãng: %s | Năm SX: %d | Giá gốc: %,.0f VNĐ",
-                maMay, hangSX, namSX, giaGoc);
+        System.out.printf("Mã: %s | Hãng: %s | Năm SX: %d | Giá gốc: %,.0f VNĐ", maMay, hangSX, namSX, giaGoc);
     }
 }
